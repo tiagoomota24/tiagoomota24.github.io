@@ -1,0 +1,95 @@
+/* src/styles/Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .profile {
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #ccc;
+  }
+  
+  .intro .greeting {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .intro .name {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .intro .profession {
+    font-size: 1.5rem;
+    color: #888;
+  }
+  
+  .buttons {
+    margin: 20px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000000;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+  
+  .btn-primary {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+  }
+  
+  .btn-primary:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transform: scale(1.05);
+  }
+  
+  .btn-secondary {
+    color: #ffffff;
+    background-color: #333;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #555;
+    transform: scale(1.05);
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    margin: 0 10px;
+    font-size: 2rem;
+    color: #000;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-link:hover {
+    color: #6e6e6e;
+    transform: scale(1.2);
+  }
+  
