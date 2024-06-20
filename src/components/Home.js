@@ -16,7 +16,7 @@ function Home() {
         <h1 className="name">Tiago Mota</h1>
         <p className="profession">Recent computer engineering graduate </p>
         <div className="buttons">
-        <a href="/Tiago mota.pdf" className="btn btn-primary" /* download */>Download CV</a>
+        <a href="/Tiago mot.pdf" className="btn btn-primary" /* download */>Download CV</a>
         <a href="mailto:tiago.cmota@hotmail.com" className="btn btn-secondary">Contact Info</a>
         </div>
         <div className="social-links">
