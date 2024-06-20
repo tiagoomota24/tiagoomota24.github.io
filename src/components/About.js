@@ -69,7 +69,7 @@ function About() {
       <h1>About Me</h1>
       <div className="content">
         <p>
-          Hello! I'm Tiago Mota, a recent graduate in Computer Engineering. 
+          Hello! I'm Tiago , a recent graduate in Computer Engineering. 
           My passion for technology and coding started when I was in high school, and since then, 
           I have developed a strong interest in web development and software engineering.
         </p>
