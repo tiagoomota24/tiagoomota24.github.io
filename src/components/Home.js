@@ -1,6 +1,6 @@
 // src/components/Home.js
 import React from 'react';
-import profilePic from '../assets/pic.PNG';
+import profilePic from '../assets/Foto_perfil.png';
 import '../styles/Home.css';
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
@@ -17,7 +17,7 @@ function Home() {
         <p className="profession">Recent computer engineering graduate </p>
         <div className="buttons">
           <a href="url-do-seu-cv.pdf" className="btn btn-primary">Download CV</a>
-          <a href="mailto:email@example.com" className="btn btn-secondary">Contact Info</a>
+          <a href="mailto:tiago.cmota@hotmail.com" className="btn btn-secondary">Contact Info</a>
         </div>
         <div className="social-links">
             <a href="https://www.linkedin.com/in/tiagocmota/" className="social-link"><FaLinkedin /></a>
