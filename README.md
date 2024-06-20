@@ -1,4 +1,4 @@
-# Tiago Mota's Personal Website
+# Personal Website
 
 [![Website](https://img.shields.io/website-up-down-green-red/https/tiagoomota24.github.io.svg)](https://tiagoomota24.github.io/)
 
