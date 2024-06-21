@@ -85,3 +85,35 @@
     height: 4.5rem; /* Increase this value to make the icons larger */
   }
   
+@media (max-width: 768px) {
+  .projects-grid {
+      grid-template-columns: 1fr; /* Single column on smaller screens */
+  }
+
+  .project-card {
+      margin-bottom: 20px; /* Add space between cards */
+  }
+
+  .project-image {
+      height: 250px; /* Adjust image height */
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-container h1 {
+      font-size: 2.5rem; /* Adjust heading size */
+  }
+
+  .project-card h2 {
+      font-size: 1.25rem; /* Adjust card title size */
+  }
+
+  .project-card p {
+      font-size: 0.875rem; /* Adjust paragraph size */
+  }
+
+  .project-links a svg {
+      width: 2rem; /* Adjust icon size */
+      height: 2rem; /* Adjust icon size */
+  }
+}
