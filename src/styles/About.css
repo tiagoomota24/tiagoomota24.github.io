@@ -10,6 +10,9 @@
     background-color: #f9f9f9;
     padding: 20px;
     background: #434343;
+    transform: translateY(10px);
+    transition: opacity 1s, transform 1s;
+    opacity: 0;
   }
   
   .about-container h1 {
@@ -24,4 +27,9 @@
     line-height: 1.6;
     color: #fff;
     text-align: left;
+  }
+
+  .about-container.visible {
+    opacity: 1;
+    transform: translateY(0);
   }

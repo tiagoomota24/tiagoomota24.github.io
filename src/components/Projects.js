@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import project1 from '../assets/Foto_ssg.PNG';
 import project2 from '../assets/SuecaCounter.PNG';
 import project3 from '../assets/Foto_smart.PNG';
 import project4 from '../assets/Foto_pass.PNG';
+import project5 from '../assets/Foto_portfolio.PNG';
 import '../styles/Projects.css';
 
 const projects = [
@@ -34,11 +35,32 @@ const projects = [
       github: "https://github.com/tiagoomota24/password-generator",
       demo: "https://tiagoomota24.github.io/password-generator/"
     },
+    {
+      title: "My Website",
+      description: "This portfolio website was developed using React.js and showcases my projects, skills, and personal information",
+      image: project5,
+      github: "https://github.com/tiagoomota24/tiagoomota24.github.io",
+      demo: "https://tiagoomota24.github.io/"
+    }
   ];
 
 function Projects() {
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const aboutMeSection = document.getElementById('project-fade');
+      const rect = aboutMeSection.getBoundingClientRect();
+      if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+        aboutMeSection.classList.add('visible');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <div className="projects-container">
+    <div id="project-fade" className="projects-container">
     <h1>Projects</h1>
     <div className="projects-grid">
       {projects.map((project, index) => (

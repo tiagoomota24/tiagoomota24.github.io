@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/About.css';
 
 function About() {
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const aboutMeSection = document.getElementById('about-me');
+      const rect = aboutMeSection.getBoundingClientRect();
+      if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+        aboutMeSection.classList.add('visible');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+
   return (
-    <div className="about-container">
+    <div id="about-me" className="about-container">
       <h1>About Me</h1>
       <div className="content">
         <p>

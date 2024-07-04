@@ -11,38 +11,38 @@
     padding: 20px;
   }
   
-  .profile {
+.profile {
     margin-bottom: 20px;
-  }
+}
   
-  .profile-pic {
+.profile-pic {
     border-radius: 50%;
     width: 200px;
     height: 200px;
     object-fit: cover;
     border: 5px solid #ccc;
-  }
+}
   
-  .intro .greeting {
+.intro .greeting {
     font-size: 1.2rem;
     color: #666;
   }
   
-  .intro .name {
+.intro .name {
     font-size: 3rem;
     margin: 0;
   }
   
-  .intro .profession {
+.intro .profession {
     font-size: 1.5rem;
     color: #888;
   }
   
-  .buttons {
+.buttons {
     margin: 20px 0;
   }
   
-  .btn {
+.btn {
     display: inline-block;
     margin: 10px;
     padding: 10px 20px;
@@ -53,32 +53,32 @@
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
   
-  .btn-primary {
+.btn-primary {
     background-color: #ffffff;
     border: 1px solid #000000;
   }
   
-  .btn-primary:hover {
+.btn-primary:hover {
     background-color: #000000;
     color: #ffffff;
     transform: scale(1.05);
   }
   
-  .btn-secondary {
+.btn-secondary {
     color: #ffffff;
     background-color: #333;
   }
   
-  .btn-secondary:hover {
+.btn-secondary:hover {
     background-color: #555;
     transform: scale(1.05);
   }
   
-  .social-links {
+.social-links {
     margin-top: 20px;
   }
   
-  .social-link {
+.social-link {
     margin: 0 10px;
     font-size: 2rem;
     color: #000;
@@ -88,8 +88,40 @@
     justify-content: center;
   }
   
-  .social-link:hover {
+.social-link:hover {
     color: #6e6e6e;
     transform: scale(1.2);
   }
-  
+
+  .arrow-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 48.5%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 3rem;
+    animation: pulse 2s infinite;
+    transition: transform 0.3s;
+}
+
+.arrow-btn:hover {
+    transform: scale(1.5);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
