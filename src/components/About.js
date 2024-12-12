@@ -32,7 +32,7 @@ function About() {
           web development using frameworks like React, Bootstrap and Express.js. 
         </p>
         <p>
-          When I'm not coding, you can find me playing video games, or watching movies/series. I'm currtenly looking for my first job opportunity.
+          When I'm not coding, you can find me playing video games, or watching movies/series. I'm currently looking for my first job opportunity.
         </p>
         <p>
           Feel free to check out my projects below, and don't hesitate to contact me if you have any questions or would like to collaborate!

@@ -5,19 +5,20 @@ import project2 from '../assets/SuecaCounter.PNG';
 import project3 from '../assets/Foto_smart.PNG';
 import project4 from '../assets/Foto_pass.PNG';
 import project5 from '../assets/Foto_portfolio.PNG';
+import project6 from '../assets/Foto_todoapp.PNG';
 import '../styles/Projects.css';
 
 const projects = [
     {
       title: "SSG - Serious Games",
-      description: "The SSG - Serious Games website was developed with the aim of promoting learning in a playful and interactive way. The website features various educational games for students and everyone who wants to learn, covering topics such as Phishing, Ransomware, Spyware among others. The project was developed using React.js, Node.js, Express.js, and Mysql.",
+      description: "The SSG - Serious Games website was developed with the aim of promoting learning in a playful and interactive way. The website features various educational games for students and everyone who wants to learn, covering topics such as Phishing, Ransomware, Spyware among others. The project was developed using React.js, Node.js, Express.js, Mysql, with Sequelize for ORM, axios for requests, and JSON WEB TOKEN for secure authentication.",
       image: project1,
       github: "https://github.com/tiagoomota24/SSG",
       demo: "https://ssg-client.onrender.com/"
     },
     {
       title: "Sueca Counter",
-      description: "Sueca Counter is a web application that allows users to keep track of the score of the Sueca card game. The project was developed using Kotlin and Firebase.",
+      description: "Sueca Counter is a mobile application that allows users to keep track of the score of the Sueca card game. The project was developed using Kotlin and Firebase.",
       image: project2,
       github: "https://github.com/tiagoomota24/SuecaCounter",
     },
@@ -37,10 +38,17 @@ const projects = [
     },
     {
       title: "My Website",
-      description: "This portfolio website was developed using React.js and showcases my projects, skills, and personal information",
+      description: "This portfolio website was developed using React and showcases my projects, skills, and personal information",
       image: project5,
       github: "https://github.com/tiagoomota24/tiagoomota24.github.io",
       demo: "https://tiagoomota24.github.io/"
+    },
+    {
+      title: "ToDoWebAPP",
+      description: "ToDoWebAPP is a web application built using React. It allows users to add, edit, and delete tasks, offering an interactive way to manage a list of to-do items.",
+      image: project6,
+      github: "https://github.com/tiagoomota24/TodoWebAPP",
+      demo: "https://todowebapp-b2b0.onrender.com/"
     }
   ];
 
