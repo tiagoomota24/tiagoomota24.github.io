@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c02615ac.css",
+    "main.css": "/static/css/main.c1e8a980.css",
     "main.js": "/static/js/main.a0361a7b.js",
     "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
     "static/media/Foto_pass.PNG": "/static/media/Foto_pass.97e5ea8b792f47a3c4ef.PNG",
@@ -11,12 +11,12 @@
     "static/media/Foto_todoapp.PNG": "/static/media/Foto_todoapp.de7d1ea3a69ae193fc21.PNG",
     "static/media/Foto_smart.PNG": "/static/media/Foto_smart.b10200fdabce3b4f68ff.PNG",
     "index.html": "/index.html",
-    "main.c02615ac.css.map": "/static/css/main.c02615ac.css.map",
+    "main.c1e8a980.css.map": "/static/css/main.c1e8a980.css.map",
     "main.a0361a7b.js.map": "/static/js/main.a0361a7b.js.map",
     "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c02615ac.css",
+    "static/css/main.c1e8a980.css",
     "static/js/main.a0361a7b.js"
   ]
 }
