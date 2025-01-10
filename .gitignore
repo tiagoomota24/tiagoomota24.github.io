@@ -18,6 +18,8 @@
 .env.test.local
 .env.production.local
 
+/src/assets/Foto_perfil.png/
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

@@ -6,6 +6,8 @@ import project3 from '../assets/Foto_smart.PNG';
 import project4 from '../assets/Foto_pass.PNG';
 import project5 from '../assets/Foto_portfolio.PNG';
 import project6 from '../assets/Foto_todoapp.PNG';
+import project7 from '../assets/AluguerVeiculo.PNG';
+
 import '../styles/Projects.css';
 
 const projects = [
@@ -49,6 +51,12 @@ const projects = [
       image: project6,
       github: "https://github.com/tiagoomota24/TodoWebAPP",
       demo: "https://todowebapp-b2b0.onrender.com/"
+    },
+    {
+      title: "Aluguer de Veículos",
+      description: "A web application for managing vehicle rentals, allowing you to efficiently create, view, and manage rental contracts.",
+      image: project7,
+      github: "https://github.com/tiagoomota24/AluguerVeiculos"
     }
   ];
 
